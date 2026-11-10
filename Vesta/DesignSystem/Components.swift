@@ -46,10 +46,10 @@ struct PrimaryButton: View {
             .frame(height: 54)
             .foregroundStyle(.white)
             .background(
-                Theme.brandGradient
+                RoundedRectangle(cornerRadius: Theme.Radius.md, style: .continuous)
+                    .fill(Theme.brandGradient)
                     .opacity(isEnabled ? 1 : 0.4)
             )
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md, style: .continuous))
         }
         .disabled(!isEnabled || isLoading)
     }
