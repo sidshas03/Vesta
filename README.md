@@ -5,6 +5,7 @@ You can go through onboarding, browse stocks/ETFs/crypto, view price charts,
 buy and sell with fake money, keep a watchlist, and see your portfolio
 allocation. All data is mock data, so it runs offline and nothing is real.
 
+
 ## Demo:
 
 <video src="https://github.com/sidshas03/Vesta/raw/main/media/demo.mp4" controls width="320"></video>
