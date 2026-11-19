@@ -46,7 +46,7 @@ and async/await in the data layer. The views talk to a `MarketDataService`
 protocol instead of a concrete type, so the mock could be swapped for a real
 API later.
 
-## Requirements
+## Requirements:
 
 - Xcode 16+ (iOS 17 SDK)
 - An iOS 17 simulator or device
